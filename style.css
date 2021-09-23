@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--Light-Gray);
+}
+
+.container {
+  margin: 3em 1.25em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  padding: 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  flex: 1;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.guarantee {
+  color: hsl(71, 73%, 54%);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.para,
+.tutorial {
+  color: var(--Grayish-Blue);
+  line-height: 1.75em;
+  font-size: 13px;
+}
+
+.top {
+  background-color: var(--Cyan);
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+}
+
+.money {
+  font-size: 28px;
+  border-bottom: 0.5em;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: var(--Light-Gray);
+  font-size: 13px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.access {
+  color: white;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 1em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bottom {
+  background-color: #00ffdd;
+}
